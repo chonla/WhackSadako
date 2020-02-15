@@ -1,5 +1,4 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class Mole : MonoBehaviour
@@ -39,7 +38,6 @@ public class Mole : MonoBehaviour
     private IEnumerator Dying()
     {
         yield return new WaitForSeconds(.5f);
-        
         transform.gameObject.SetActive(false);
     }
 }

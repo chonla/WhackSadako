@@ -72,5 +72,6 @@ crashlytics-build.properties
 .idea/
 
 .DS_Store
+.ionide/
 
-webgl/
+Dist/
